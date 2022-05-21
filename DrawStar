@@ -1,0 +1,14 @@
+import turtle
+
+turtle.bgcolor('Black')
+turtle.speed(2)
+turtle.pensize(5)
+turtle.pencolor('yellow')
+
+for i in range (5):
+    turtle.forward(100)
+    turtle.right(144)
+
+turtle.end_fill()
+turtle.hideturtle()
+turtle.done()
