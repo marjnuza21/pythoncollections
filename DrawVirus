@@ -1,0 +1,28 @@
+#import Turtle
+import turtle
+
+tt=turtle.Turtle()
+turtle.bgcolor('black')
+tt.pencolor('green')
+
+tt.speed(0)
+tt.penup()
+tt.goto(0,200)
+tt.pendown()
+
+#initialization of variables
+forDis=0
+dR=0
+
+while(True):
+    tt.forward(forDis)
+    tt.right(dR)
+    forDis+=3 #forDis increased by 3 on every iteration
+    dR+=1 #right angle distance increased by 1 on every iteration
+    #if the distance for the right angle becomes 210 the loop breaks
+    if dR==210:
+        break
+#hide the turtle on completion of loop
+    tt.hideturtle()
+
+turtle.done()
