@@ -1,0 +1,12 @@
+import turtle
+
+turtle.bgcolor('Black')
+turtle.speed(1)
+turtle.pensize(6)
+turtle.pencolor('yellow')
+
+turtle.shape("turtle")
+turtle.stamp()
+turtle.fd(200)
+turtle.stamp()
+turtle.fd(200)
