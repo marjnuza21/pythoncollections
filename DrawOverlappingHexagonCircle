@@ -1,0 +1,15 @@
+import turtle
+
+turtle.bgcolor('Black')
+turtle.shape('turtle')
+turtle.speed(1)
+turtle.pensize(6)
+turtle.pencolor('yellow')
+
+c = turtle.clone()
+turtle.color('red')
+for i in range (6):
+    turtle.forward(90)
+    turtle.right(300)
+c.color('pink')
+c.circle(100)
