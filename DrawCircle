@@ -8,6 +8,7 @@ my_pen.fillcolor('ffdd00')
 my_pen.end()
 my_pen.home()
 
+
 my_pen.goto(-40, 100)
 my_pen.color('#555555')
 my_pen.begin_fill()
