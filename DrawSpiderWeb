@@ -1,7 +1,7 @@
 import turtle as t
 
 #define turtle speed
-t.speed(10)
+t.speed(9)
 
 #radical thread
 for i in range (6):
@@ -32,6 +32,8 @@ for i in range(15):
         t.right(60)
     side = side - 10 #side decreases by 10
 
+
 #Fill color completes
 t.end_fill()
 turtle.done()
+
