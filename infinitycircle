@@ -17,3 +17,5 @@ for i in range (150):
         turtle.forward(10)
     else:
         turtle.forward(5)
+        
+        
