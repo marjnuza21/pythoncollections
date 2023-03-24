@@ -19,5 +19,3 @@ for i in range(100):
         pattern+=1
 
 turtle.done()
-
-
