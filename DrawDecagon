@@ -12,5 +12,3 @@ for i in range (10):
 turtle.hideturtle()
 turtle.done()
 
-
-
