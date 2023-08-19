@@ -15,8 +15,4 @@ for i in range (15) :
         turtle.forward(200)
         turtle.left(90)
         
-        
-
-        
-        
-        
+    
